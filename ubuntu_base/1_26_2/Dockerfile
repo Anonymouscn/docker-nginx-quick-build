@@ -19,6 +19,7 @@ RUN apt-get update && \
         --with-debug \
         --with-http_v3_module \
         --with-http_v2_module \
+        --with-stream \
         --with-cc=c++ \
         --add-module=../ngx_brotli \
         --with-cc-opt="-I../boringssl/include -x c" \
